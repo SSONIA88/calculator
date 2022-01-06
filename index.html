@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <h1>Calculator Design Using HTML Layout</h1>
+    <div class="container">
+      <div class="header">Calculator</div>
+      <div><input type="text" class="result" id="result" placeholder="result"></div>
+      
+      <div class="first-row">
+        <input type="button" name="" value="1" class="global" onclick="displayNum('1')">
+        <input type="button" name="" value="2" class="global" onclick="displayNum('2')">
+        <input type="button" name="" value="3" class="global" onclick="displayNum('3')">
+        <input type="button" name="" value="+" class="global" onclick="displayNum('+')">
+      </div>
+      <div class="second-row">
+        <input type="button" name="" value="4" class="global" onclick="displayNum('4')">
+        <input type="button" name="" value="5" class="global" onclick="displayNum('5')">
+        <input type="button" name="" value="6" class="global" onclick="displayNum('6')">
+        <input type="button" name="" value="-" class="global" onclick="displayNum('-')">
+      </div>
+      <div class="third-row">
+        <input type="button" name="" value="7" class="global" onclick="displayNum('7')">
+        <input type="button" name="" value="8" class="global" onclick="displayNum('8')">
+        <input type="button" name="" value="9" class="global" onclick="displayNum('9')">
+        <input type="button" name="" value="x" class="global" onclick="displayNum('*')">
+      </div>
+      <div class="fourth-row">
+        <input type="button" name="" value="C" class="global" onclick="clearBox()">
+        <input type="button" name="" value="0" class="global" onclick="displayNum('0')">
+        <input type="button" name="" value="=" class="global" onclick="evaluateExpression()">
+        <input type="button" name="" value="/" class="global" onclick="displayNum('/')">
+      </div>
+      <div class="fifth-row">
+        <input type="button" name="" value="del" class="delete" onclick="del()">
+      </div>
+
+      
+      </div>
+    </div>
+    
+</body>
+</html>
